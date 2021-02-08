@@ -3,7 +3,7 @@
     <h1>Create an event</h1>
     <form>
 
-      <label>Select a category</label>
+      <label>Select a category:</label>
       <select v-model="event.category">
         <option
           v-for="option in categories"
